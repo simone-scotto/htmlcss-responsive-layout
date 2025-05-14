@@ -165,6 +165,10 @@ header {
                 box-shadow: 0px 2px;
             }
         }
+
+        .banner {
+            display: none;
+        }
     
     }
     
@@ -352,6 +356,10 @@ img {
                     border-radius: 15px;
                     box-shadow: 0px 2px;
                 }
+            }
+
+            .banner{
+                display: block;
             }
         }
 
