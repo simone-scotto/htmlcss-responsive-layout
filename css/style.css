@@ -35,7 +35,7 @@
 }
 
 .bg-gray {
-    background-color: #f6f5f3;;
+    background-color: #f6f5f3;
 }
 
 .wht {
@@ -51,12 +51,15 @@
     width: 50%;
 }
 
-
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
 
 
 /*common*/
  body{
-    background-color: yellow;
+    background-color: #dddcda;
  }
 
 :root {
@@ -115,6 +118,9 @@ header {
 
             .col {
                 background-color: white;
+                border-bottom-right-radius: 3px;
+                border-bottom-left-radius: 3px;
+                box-shadow: 0px 2px;
 
 
                 .recepie {
@@ -159,16 +165,50 @@ header {
                 box-shadow: 0px 2px;
             }
         }
-
+    
+    }
     
 }
 
-
-
 img {
     width: 100%;
+    margin: 0 auto;
+    display: block;
 }
 
+/* presentation section*/
+
+
+.presentation {
+
+    .container {
+
+         h2 {
+            padding-bottom: 1rem;
+        }
+
+        hr {
+            border-bottom: 1px solid gold;
+            width: 4rem;
+            
+        }
+
+        .row {
+
+            .col {
+
+               
+
+                img {
+                    width: 60%;
+                    padding: 1rem 0;
+                }
+
+
+            }
+        }
+    }
+}
 
 
 
@@ -264,11 +304,65 @@ img {
 
                 
             }
+
+            .social {
+            
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem 0rem;
+
+                a {
+                    background-color: white;
+                    padding: 0.2rem 2rem;
+                    border-radius: 15px;
+                    box-shadow: 0px 2px;
+                }
+            }
         }
 
         
     }
 
+
+    .presentation {
+
+        .container {
+
+            max-width: 80%;
+            margin: 0 auto;
+
+            h2 {
+                padding-bottom: 1rem;
+            }
+
+            hr {
+                border-bottom: 1px solid gold;
+                width: 4rem;
+                
+            }
+
+            .row {
+
+                .col {
+
+                
+
+                    img {
+                        width: 35%;
+                        float: left;
+                        margin: 1rem 1rem 1rem 0;
+                    }
+
+                    p {
+                        padding: 1rem 0;
+                    }
+                    
+
+
+                }
+            }
+        }
+    }
  /*col md*/
  
  .col-md-12 {
