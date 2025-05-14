@@ -9,8 +9,10 @@
 
 /*debug*/
 
-* {
-    border: 1px solid black;
+.debug {
+    * {
+        border: 1px solid black;
+    }
 }
 
 /*font*/
@@ -40,10 +42,21 @@
     background-color: white;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+ /*col*/
+.col-6 {
+    max-width: 50%;
+}
+
+
+
 
 /*common*/
  body{
-    background-color: #f6f5f3;
+    background-color: yellow;
  }
 
 :root {
@@ -55,14 +68,14 @@
 
 header {
     background-color: white;
-    padding: 1rem 0;
+    
 
     h1 {
         font-family: 'Nerko One', cursive;
         color: #ff9614;
         text-shadow: 1px 1px black;
         text-align: center;
-        font-size: 2rem;
+        font-size: 3rem;
         text-transform: uppercase;
         font-weight: 100;
 
@@ -72,24 +85,80 @@ header {
 /*main*/
 
 
-
-
 /*tiramisu section*/
 
-.container {
-    width: 90%;
-    margin: 0 auto;
+
+.tiramisu {
+    padding: 1rem 0;
+
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+
+        h4 {
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            color: gray;
+
+        }
+
+        h2 {
+            display: inline-block;
+            padding: 1rem 0;
+        }
+
+        .hidden {
+                visibility: hidden;
+        }
+
+        .row {
+
+            .col {
+                background-color: white;
+
+
+                .recepie {
+                    padding: 1.5rem 1rem;
+
+                h3 {
+                    font-size: 1rem;
+    
+                }
+
+                ul {
+                        
+                    padding: 1rem 0;
+
+                    li {
+                        
+                        list-style: none;
+                        padding: 0.5rem 0;
+                        font-size: 0.8rem;
+                    }
+                }
+
+            
+            }
+
+
+            
+        }
+    }
+
+    
 }
 
 
-.card {
-    height: 100px;
+
+img {
     width: 100%;
 }
 
-iframe {
-    width: 100%;
-}
+
+
+
+
+
 
 
 
@@ -105,7 +174,7 @@ iframe {
 
     header {
         background-color: white;
-        padding: 1rem 0;
+        
 
         h1 {
             font-family: 'Nerko One', cursive;
