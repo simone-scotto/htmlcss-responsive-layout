@@ -1,0 +1,100 @@
+/*css reset*/
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*font*/
+
+.nerko-one-regular {
+  font-family: "Nerko One", cursive;
+
+}
+
+
+
+/*utilis*/
+
+.light-prp {
+    color: #7c69a4;
+}
+
+.dark-prp {
+    color: #4e396b;
+}
+
+.bg-gray {
+    background-color: #f6f5f3;;
+}
+
+.wht {
+    background-color: white;
+}
+
+
+/*common*/
+ body{
+    background-color: #f6f5f3;
+ }
+
+:root {
+    font-family:  Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+/*header*/
+
+
+header {
+    background-color: white;
+    padding: 1rem 0;
+
+    h1 {
+        font-family: 'Nerko One', cursive;
+        color: #ff9614;
+        text-shadow: 1px 1px black;
+        text-align: center;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 100;
+
+    }
+}
+
+/*main*/
+
+/*tiramisu section*/
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*responsiveness*/
+
+@media screen and (min-width: 769) and (max-width: 992px) {
+
+h1 {
+        font-family: 'Nerko One', cursive;
+        color: #ff9614;
+        text-shadow: 1px 1px black;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 100;
+        text-align: start;
+
+    } 
+    
+}
