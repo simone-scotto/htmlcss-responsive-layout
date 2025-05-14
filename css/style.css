@@ -48,7 +48,7 @@
 
  /*col*/
 .col-6 {
-    max-width: 50%;
+    width: 50%;
 }
 
 
@@ -120,21 +120,23 @@ header {
                 .recepie {
                     padding: 1.5rem 1rem;
 
-                h3 {
-                    font-size: 1rem;
-    
-                }
-
-                ul {
-                        
-                    padding: 1rem 0;
-
-                    li {
-                        
-                        list-style: none;
-                        padding: 0.5rem 0;
-                        font-size: 0.8rem;
+                    h3 {
+                        font-size: 1rem;
+        
                     }
+
+                    ul {
+                            
+                        padding: 1rem 0;
+
+                        li {
+                            
+                            list-style: none;
+                            padding: 0.5rem 0;
+                            font-size: 0.8rem;
+                        }
+                    }
+
                 }
 
             
@@ -181,13 +183,85 @@ img {
             color: #ff9614;
             text-shadow: 1px 1px black;
             text-align: start;
-            font-size: 2rem;
+            font-size: 3rem;
             text-transform: uppercase;
             font-weight: 100;
 
         }
     }
 
+    .tiramisu {
+        padding: 1rem 0;
 
+        .container {
+            max-width: 80%;
+            margin: 0 auto;
+
+            h4 {
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                color: gray;
+
+            }
+
+            h2 {
+                display: inline-block;
+                padding: 1rem 0;
+            }
+
+            .hidden {
+                    visibility: hidden;
+            }
+
+            .row {
+
+                .col {
+                    background-color: white;
+
+
+                    .recepie {
+                        padding: 1.5rem 1rem;
+
+                        h3 {
+                            font-size: 1rem;
+                            padding-bottom: 1rem;
+            
+                        }
+
+                        ul {
+                                
+                            padding: 1rem 0;
+                            display: flex;
+                            flex-wrap: wrap;
+
+                            li {
+                                
+                                list-style: none;
+                                
+                                font-size: 0.8rem;
+                                width: 33%;
+                            }
+                        }
+
+                    }
+
+                
+                }
+
+
+                
+            }
+        }
+
+        
+    }
+
+ /*col md*/
+ 
+ .col-md-12 {
+    width: 100%;
+ }
     
 }
+
+
