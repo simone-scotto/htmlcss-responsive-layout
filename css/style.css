@@ -185,6 +185,8 @@ img {
 
 .presentation {
 
+        padding-bottom: 2rem;
+
     .container {
 
          h2 {
@@ -229,6 +231,11 @@ img {
         margin: 0 auto;
         gap: 0.5rem;
 
+        p {
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
+
         span {
             font-size: 0.7rem;
         }
@@ -245,6 +252,7 @@ img {
                 padding: 0.5rem;
 
                 a {
+                    color: white;
                    
                 }
             }
@@ -278,6 +286,7 @@ img {
             font-size: 3rem;
             text-transform: uppercase;
             font-weight: 100;
+            padding: 0.5rem 1rem;
 
         }
     }
@@ -293,16 +302,19 @@ img {
                 text-transform: uppercase;
                 font-size: 0.8rem;
                 color: gray;
+                font-weight: 100;
 
             }
 
             h2 {
                 display: inline-block;
                 padding: 1rem 0;
+                font-size: 1.5rem;
+                font-weight: 900;
             }
 
-            .hidden {
-                    visibility: hidden;
+            .nodisplay {
+                    display: inline-block;
             }
 
             .row {
@@ -355,6 +367,11 @@ img {
                     padding: 0.2rem 2rem;
                     border-radius: 15px;
                     box-shadow: 0px 2px;
+
+                    .nodisplay {
+                        display: none;
+                    }
+                    
                 }
             }
 
@@ -423,8 +440,14 @@ img {
         margin: 0 auto;
         gap: 0.5rem;
 
+        p {
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
+
         span {
             font-size: 0.7rem;
+            
         }
 
         ul {
@@ -456,4 +479,73 @@ img {
     
 }
 
+/*dekstop*/
 
+
+.col-lg-9 {
+    width: calc(100% / 12 * 9);
+}
+
+.col-lg-4 {
+    width: calc(100% / 12 * 4);
+}
+
+
+@media screen and (min-width: 993px) {
+
+
+
+    .tiramisu {
+        .container {
+
+            width: 60%;
+
+            .nodisplay {
+                display: inline-block;
+            }
+
+
+            .row {
+                .col {
+
+                    display: flex;
+
+                    .recepie {
+                        padding: 1rem 1rem 0;
+                    }
+                }
+
+            
+            }
+
+            .social {
+
+                a {
+                    padding: 0.5rem 1rem;
+
+                    i {
+                        padding-right: 0.2rem;
+                        vertical-align: middle;
+                    }
+
+                    .nodisplay {
+                        text-transform: uppercase;
+                        font-size: 0.8rem;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+
+    .presentation {
+        .container {
+            width: 60%;
+        }
+    }
+
+    
+
+    
+
+}
